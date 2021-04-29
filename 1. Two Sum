@@ -5,9 +5,6 @@ public:
         map<int,int>hmap;
         hmap.clear();
         for (int i=0;i<numbers.size();i++){
-           
-        }
-        for (int i=0;i<numbers.size();i++){
             if (hmap.find((target-numbers[i]))!=hmap.end()){
                 if (i!=hmap[target-numbers[i]]){
                     res.push_back(i);
